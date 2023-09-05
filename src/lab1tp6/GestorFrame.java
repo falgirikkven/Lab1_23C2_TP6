@@ -1,7 +1,6 @@
 package lab1tp6;
 
 import java.beans.PropertyVetoException;
-import java.util.TreeSet;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JInternalFrame;
@@ -129,6 +128,7 @@ public class GestorFrame extends javax.swing.JFrame {
         });
         jmConsultas.add(jmiPorRubro);
 
+        jmiPorNombre.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
         jmiPorNombre.setText("Por Nombre");
         jmiPorNombre.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
