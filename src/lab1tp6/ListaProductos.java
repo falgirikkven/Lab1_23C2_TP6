@@ -1,6 +1,7 @@
 package lab1tp6;
 
 import java.util.ArrayList;
+import java.util.TreeSet;
 
 /**
  *
@@ -8,11 +9,11 @@ import java.util.ArrayList;
  */
 public class ListaProductos {
 
-    private final ArrayList<Producto> productos;
+    private final TreeSet<Producto> productos;
     private final ArrayList<Observador> observadores;
 
     public ListaProductos() {
-        productos = new ArrayList();
+        productos = new TreeSet();
         observadores = new ArrayList();
     }
 
